@@ -1,0 +1,39 @@
+/* .feed-content-container{
+    position: absolute;
+} */
+
+ .feed-content-card{
+
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1rem !important;
+
+}
+
+/* .feed-content{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+} */ 
+
+
+.feed-content{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+/* .feed-content{
+    margin: auto !important;
+    text-align: center;
+    justify-content: center;
+    
+} */
+/*  */
+
+.feed-heading{
+    margin-bottom: 3rem !important;    
+}

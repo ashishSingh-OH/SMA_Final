@@ -1,0 +1,51 @@
+.feed-layout-sider{
+    margin-right: 0 !important;
+    width: 9rem   !important;
+}
+.sider-header{
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.feed-layout-container{
+    height: 100vh;
+}
+.sider-menu{
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}
+.friend-list-item{
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 3rem;
+    font-weight: 100;
+    border: 1.8px solid red;
+    margin: 1rem;
+    width: 90%;
+}
+.friend-list-item:hover{
+    background-color: #fff;
+    color: black;
+    border: 1.8px solid green;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button{
+    all: unset;
+}
+.sider-toggle-button{
+    position: absolute;
+    right: 0.75rem;
+    top: 0.45rem;
+    color: #fff;
+    font-size: 1.8rem;
+}
